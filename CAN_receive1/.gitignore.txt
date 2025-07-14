@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# But keep Core and Drivers folders
+!Core/
+!Drivers/
+
+# Allow all contents inside Core and Drivers
+!Core/**
+!Drivers/**
+
+# Ignore .gitignore itself from being ignored (optional)
+!.gitignore
